@@ -1,0 +1,4 @@
+.venv/
+.pyhton-version
+__pycache__/
+*.pyc
