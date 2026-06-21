@@ -1,0 +1,6 @@
+docling
+chromadb
+sentence-transformers
+pydantic
+tqdm
+python-dotenv
