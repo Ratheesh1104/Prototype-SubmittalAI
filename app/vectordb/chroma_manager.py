@@ -38,3 +38,17 @@ class ChromaManager:
             embeddings=embeddings.tolist(),
             metadatas=metas
         )
+
+    def query(
+        self,
+        embedding,
+        top_k=10
+    ):
+
+        return self.collection.query(
+
+            query_embeddings=[embedding],
+
+            n_results=top_k
+
+        )
